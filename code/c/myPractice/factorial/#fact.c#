@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(int argc, char **argv) {
+
+  int n=0;
+  printf("Enter any number \n");
+  scanf("%d",&n);
+
+  /*Calculate Factorial */
+
+  int count =1;
+  int fact =
+xo
+  while (count<=n) {
+    fact = fact*count;
+    count++;
+  }
+
+  printf("n! = %d",fact);
+
+return 0
+  }
