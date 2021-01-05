@@ -11,7 +11,7 @@
 // ... much easier to adapt to 3d states of stree (just change STRESS)
 //
 
-void StressTransform(STRESS s, STRESS *sp, double theta) {
+void StressTransform(STRESS stressIN, STRESS *stressOut, double theta) {
 
 	double pi = 4.0*atan(1.);
 	double th = theta * pi/180.;
@@ -21,8 +21,9 @@ void StressTransform(STRESS s, STRESS *sp, double theta) {
 
 	// these next lines need to be adapted to work with the new header ...
 
-	*sigxp = sigx*cs*cs + sigy*sn*sn + 2.*tau*sn*cs;
-	*sigyp = sigx*sn*sn + sigy*cs*cs - 2.*tau*sn*cs;
-	*taup  = (sigy - sigx)*sn*cs + tau*(cs*cs - sn*sn);
-}
+	
+	stressOut->sigx = stressIN.sigx*cs*cs + stressIN.sigy*sn*sn + 2.*stressIN.tau*sn*cs;
+	stressOut->sigy = stressIN.sigx*sn*sn + stressIN.sigy*cs*cs - 2.*stressIN.tau*sn*cs;
+	stressOut->tau  = (stressIN.sigy - stressIN.sigx)*sn*cs + stressIN.tau*(cs*cs - sn*sn);
 
+}
