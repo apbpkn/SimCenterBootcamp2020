@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <math.h>
+static int long numSteps = 100000;
+
+int main() {
+
+  double pi = 0;
+  double time = 0;
+  
+double f = 0;
+
+  for (int i=0;i<numSteps;i++) {
+    f = 4/((1+(i/numSteps)*(i/numSteps)));
+    pi += f*1/numSteps;
+    printf("i = %d, pi = %f \n",i,pi);
+
+  }
+
+  printf("PI = %f ,duration = %f ms \n",pi,time);
+  return 0;
+}

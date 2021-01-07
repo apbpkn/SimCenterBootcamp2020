@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home1/05049/apbpkn/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/ColoredShape.h
+iostream
+-
+string
+-
+
+/home1/05049/apbpkn/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/Triangle.cpp
+Triangle.h
+/home1/05049/apbpkn/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/Triangle.h
+
+/home1/05049/apbpkn/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/Triangle.h
+ColoredShape.h
+/home1/05049/apbpkn/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/ColoredShape.h
+
