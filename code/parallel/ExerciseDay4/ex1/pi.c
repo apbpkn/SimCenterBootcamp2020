@@ -13,7 +13,7 @@ int main() {
   
   for (int i=0; i<numSteps; i++) {
     pi += 4./(1.+x*x);
-    x += dx;
+    x = (i+1)*dx;
   }
   
   pi *= dx;
