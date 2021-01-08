@@ -1,0 +1,3 @@
+/home1/05049/apbpkn/SimCenterBootcamp2020/code/c/ExerciseDay2/Solutions/ex2-2/CMakeFiles/rebuild_cache.dir
+/home1/05049/apbpkn/SimCenterBootcamp2020/code/c/ExerciseDay2/Solutions/ex2-2/CMakeFiles/edit_cache.dir
+/home1/05049/apbpkn/SimCenterBootcamp2020/code/c/ExerciseDay2/Solutions/ex2-2/CMakeFiles/Exercise2-2.dir

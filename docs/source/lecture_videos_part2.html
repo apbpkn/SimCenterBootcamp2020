@@ -38,7 +38,9 @@
 
     
     <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" /> 
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Assignments" href="assignments.html" />
+    <link rel="prev" title="Python Quickstart Tutorial" href="lecture_videos_part1.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -84,13 +86,42 @@
             
             
               <p class="caption"><span class="caption-text">Contents:</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="syllabus.html">Syllabus</a></li>
 <li class="toctree-l1"><a class="reference internal" href="setupInstructions.html">Setup Instructions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="lecture_videos.html">Self-Study Videos</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="lecture_videos.html">Self-Study Videos</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="lecture_videos_part0.html">General Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="lecture_videos_part1.html">Python Quickstart Tutorial</a></li>
+<li class="toctree-l2"><a class="reference internal" href="lecture_videos_part1.html#python-applications">Python Applications</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Programming in C</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#computers-programs-and-applications">Computers, Programs and Applications</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#introduction-to-c-and-compilation">Introduction to C and Compilation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#c-variable-types-and-variable-names">C Variable Types and Variable Names</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#c-operations-conditionals-and-loops">C Operations, Conditionals and Loops</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#c-functions">C Functions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#c-pointers-revisited">C Pointers Revisited</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#c-arrays-and-memory-management">C Arrays and Memory Management</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#c-file-i-o">C File I/O</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#c-struts-data-structures-and-abstraction">C Struts, Data Structures and Abstraction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#c-abstraction-and-oop">C++ Abstraction and OOP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#c-language">C++ Language</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#c-class-example">C++ Class Example</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#parallel-computers-and-parallel-programming">Parallel Computers and Parallel Programming</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#parallel-programming-with-mpi">Parallel Programming With MPI</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#parallel-programming-with-openmp">Parallel Programming With OpenMP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#intoduction-to-agave">Intoduction to Agave</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#agave-systems">Agave Systems</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#agave-files">Agave Files</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#agave-apps">Agave Apps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#agave-jobs">Agave Jobs</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="assignments.html">Assignments</a></li>
-<li class="toctree-l1"><a class="reference internal" href="TACC.html">TACC</a></li>
-<li class="toctree-l1"><a class="reference internal" href="tools.html">Developer Tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="TACC.html">TACC-Frontera</a></li>
+<li class="toctree-l1"><a class="reference internal" href="git.html">Git</a></li>
+<li class="toctree-l1"><a class="reference internal" href="emacs.html">Emacs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="help.html">Questions, Issues</a></li>
 <li class="toctree-l1"><a class="reference internal" href="resources.html">Additional Resources</a></li>
 </ul>
@@ -139,6 +170,8 @@
     
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
         
+          <li><a href="lecture_videos.html">Self-Study Videos</a> &raquo;</li>
+        
       <li>Programming in C</li>
     
     
@@ -160,54 +193,66 @@
             
   <div class="section" id="programming-in-c">
 <h1>Programming in C<a class="headerlink" href="#programming-in-c" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="introduction-to-programming-in-c">
-<h2>Introduction to programming in C<a class="headerlink" href="#introduction-to-programming-in-c" title="Permalink to this headline">¶</a></h2>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/67tcA-4HwUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
-<div class="section" id="memory-management-pointers-malloc-sizeof-free">
-<h2>Memory management: pointers. malloc, sizeof, free<a class="headerlink" href="#memory-management-pointers-malloc-sizeof-free" title="Permalink to this headline">¶</a></h2>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/wb7JRsfV-7k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
-<div class="section" id="parallel-programming">
-<h2>Parallel programming<a class="headerlink" href="#parallel-programming" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p>Parallel programming in C using MPI</p></li>
-</ul>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/28YeoITLVE0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p><ul class="simple">
-<li><p>Parallel programming in C using MPI - Exercise review</p></li>
-</ul>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/xyba7JT0Ekc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p><ul class="simple">
-<li><p>Parallel programming in C using openMP</p></li>
-</ul>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/2Ov9jqN52Q8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p><ul class="simple">
-<li><p>Parallel programming in C using openMP - Exercise review</p></li>
-</ul>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/YbVV44D4wrA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
-<div class="section" id="abstraction-in-c-structures">
-<h2>Abstraction in C - Structures<a class="headerlink" href="#abstraction-in-c-structures" title="Permalink to this headline">¶</a></h2>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/SiIJBL9lXt0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
-</div>
-<div class="section" id="id1">
-<h1>Programming in C++<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="classes">
-<h2>Classes<a class="headerlink" href="#classes" title="Permalink to this headline">¶</a></h2>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/3GjRFoiKV2M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p><ul class="simple">
-<li><p>exercise reviews</p></li>
-</ul>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/XotVCTZT-mk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
-<div class="section" id="designing-complex-programs">
-<h2>Designing complex programs<a class="headerlink" href="#designing-complex-programs" title="Permalink to this headline">¶</a></h2>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/3-wBwsn7wpQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
-<div class="section" id="exercise-vector-class">
-<h2>Exercise: Vector class<a class="headerlink" href="#exercise-vector-class" title="Permalink to this headline">¶</a></h2>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/UJ8szTkfeNs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
-</div>
-<div class="section" id="application-programming">
-<h1>Application Programming<a class="headerlink" href="#application-programming" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="gui-programming-with-qt5">
-<h2>GUI Programming with Qt5<a class="headerlink" href="#gui-programming-with-qt5" title="Permalink to this headline">¶</a></h2>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/QR94VsXgTmc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
-<div class="section" id="simcenter-tools">
-<h2>SimCenter Tools<a class="headerlink" href="#simcenter-tools" title="Permalink to this headline">¶</a></h2>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/eOduZATiw6E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
+<div class="section" id="computers-programs-and-applications">
+<h2>Computers, Programs and Applications<a class="headerlink" href="#computers-programs-and-applications" title="Permalink to this headline">¶</a></h2>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/rP1DSfU_JUo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
+<div class="section" id="introduction-to-c-and-compilation">
+<h2>Introduction to C and Compilation<a class="headerlink" href="#introduction-to-c-and-compilation" title="Permalink to this headline">¶</a></h2>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/w2S75SKgGaQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
+<div class="section" id="c-variable-types-and-variable-names">
+<h2>C Variable Types and Variable Names<a class="headerlink" href="#c-variable-types-and-variable-names" title="Permalink to this headline">¶</a></h2>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/kpjYp3Q5Cco" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
+<div class="section" id="c-operations-conditionals-and-loops">
+<h2>C Operations, Conditionals and Loops<a class="headerlink" href="#c-operations-conditionals-and-loops" title="Permalink to this headline">¶</a></h2>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/gtBufZO5IGo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
+<div class="section" id="c-functions">
+<h2>C Functions<a class="headerlink" href="#c-functions" title="Permalink to this headline">¶</a></h2>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/ua2KOBhvxDo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
+<div class="section" id="c-pointers-revisited">
+<h2>C Pointers Revisited<a class="headerlink" href="#c-pointers-revisited" title="Permalink to this headline">¶</a></h2>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Qplwm5K27UY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
+<div class="section" id="c-arrays-and-memory-management">
+<h2>C Arrays and Memory Management<a class="headerlink" href="#c-arrays-and-memory-management" title="Permalink to this headline">¶</a></h2>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/QESE-SwNx7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
+<div class="section" id="c-file-i-o">
+<h2>C File I/O<a class="headerlink" href="#c-file-i-o" title="Permalink to this headline">¶</a></h2>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/EWT3wU9yDCo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
+<div class="section" id="c-struts-data-structures-and-abstraction">
+<h2>C Struts, Data Structures and Abstraction<a class="headerlink" href="#c-struts-data-structures-and-abstraction" title="Permalink to this headline">¶</a></h2>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/_ewhjB45tTc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
+<div class="section" id="c-abstraction-and-oop">
+<h2>C++ Abstraction and OOP<a class="headerlink" href="#c-abstraction-and-oop" title="Permalink to this headline">¶</a></h2>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/9VYn7g96cxM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
+<div class="section" id="c-language">
+<h2>C++ Language<a class="headerlink" href="#c-language" title="Permalink to this headline">¶</a></h2>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/0YJdjzSEN78" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
+<div class="section" id="c-class-example">
+<h2>C++ Class Example<a class="headerlink" href="#c-class-example" title="Permalink to this headline">¶</a></h2>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/YzpMBOlhpq8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
+<div class="section" id="parallel-computers-and-parallel-programming">
+<h2>Parallel Computers and Parallel Programming<a class="headerlink" href="#parallel-computers-and-parallel-programming" title="Permalink to this headline">¶</a></h2>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/WvfpAZMI01E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
+<div class="section" id="parallel-programming-with-mpi">
+<h2>Parallel Programming With MPI<a class="headerlink" href="#parallel-programming-with-mpi" title="Permalink to this headline">¶</a></h2>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/209rMQcKizc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
+<div class="section" id="parallel-programming-with-openmp">
+<h2>Parallel Programming With OpenMP<a class="headerlink" href="#parallel-programming-with-openmp" title="Permalink to this headline">¶</a></h2>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/APzanKquS-Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
+<div class="section" id="intoduction-to-agave">
+<h2>Intoduction to Agave<a class="headerlink" href="#intoduction-to-agave" title="Permalink to this headline">¶</a></h2>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/vNFbzG4t1bI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
+<div class="section" id="agave-systems">
+<h2>Agave Systems<a class="headerlink" href="#agave-systems" title="Permalink to this headline">¶</a></h2>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/TddwsA5MY_I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
+<div class="section" id="agave-files">
+<h2>Agave Files<a class="headerlink" href="#agave-files" title="Permalink to this headline">¶</a></h2>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/eh7Etvuvo7E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
+<div class="section" id="agave-apps">
+<h2>Agave Apps<a class="headerlink" href="#agave-apps" title="Permalink to this headline">¶</a></h2>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/f2-Qg6sMsQM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
+<div class="section" id="agave-jobs">
+<h2>Agave Jobs<a class="headerlink" href="#agave-jobs" title="Permalink to this headline">¶</a></h2>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/HDo5QzwOjTc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
 </div>
 
 
@@ -215,6 +260,15 @@
            
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="assignments.html" class="btn btn-neutral float-right" title="Assignments" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="lecture_videos_part1.html" class="btn btn-neutral float-left" title="Python Quickstart Tutorial" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>

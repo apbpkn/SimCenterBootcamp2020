@@ -1,112 +1,158 @@
 
 Programming in C
-============
+================
 
-Introduction to programming in C
----------
-
-.. raw:: html
-
-   <p><iframe width="560" height="315" src="https://www.youtube.com/embed/67tcA-4HwUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-
-
-Memory management: pointers. malloc, sizeof, free
----------
+Computers, Programs and Applications
+------------------------------------
 
 .. raw:: html
 
-   <p><iframe width="560" height="315" src="https://www.youtube.com/embed/wb7JRsfV-7k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+   <p><iframe width="560" height="315" src="https://www.youtube.com/embed/rP1DSfU_JUo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 
-Parallel programming
----------
-
-* Parallel programming in C using MPI
+Introduction to C and Compilation
+---------------------------------
 
 .. raw:: html
 
-       <p><iframe width="560" height="315" src="https://www.youtube.com/embed/28YeoITLVE0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+   <p><iframe width="560" height="315" src="https://www.youtube.com/embed/w2S75SKgGaQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-
-* Parallel programming in C using MPI - Exercise review
-
-.. raw:: html
-
-       <p><iframe width="560" height="315" src="https://www.youtube.com/embed/xyba7JT0Ekc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-
-
-* Parallel programming in C using openMP
+C Variable Types and Variable Names
+-----------------------------------
 
 .. raw:: html
 
-       <p><iframe width="560" height="315" src="https://www.youtube.com/embed/2Ov9jqN52Q8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+   <p><iframe width="560" height="315" src="https://www.youtube.com/embed/kpjYp3Q5Cco" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 
-* Parallel programming in C using openMP - Exercise review
-
-.. raw:: html
-
-       <p><iframe width="560" height="315" src="https://www.youtube.com/embed/YbVV44D4wrA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-
-
-Abstraction in C - Structures
-----------------------------
+C Operations, Conditionals and Loops
+-------------------------------------
 
 .. raw:: html
 
-       <p><iframe width="560" height="315" src="https://www.youtube.com/embed/SiIJBL9lXt0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+   <p><iframe width="560" height="315" src="https://www.youtube.com/embed/gtBufZO5IGo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 
-
-
-Programming in C++
-============
-
-Classes
----------
-
-.. raw:: html
-
-       <p><iframe width="560" height="315" src="https://www.youtube.com/embed/3GjRFoiKV2M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-
-* exercise reviews
-
-.. raw:: html
-
-       <p><iframe width="560" height="315" src="https://www.youtube.com/embed/XotVCTZT-mk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-
-Designing complex programs
-----------
-
-.. raw:: html
-
-       <p><iframe width="560" height="315" src="https://www.youtube.com/embed/3-wBwsn7wpQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-
-Exercise: Vector class
--------------
-
-.. raw:: html
-
-       <p><iframe width="560" height="315" src="https://www.youtube.com/embed/UJ8szTkfeNs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-
-
-Application Programming
-===========
-
-GUI Programming with Qt5
---------------------
-
-.. raw:: html
-
-       <p><iframe width="560" height="315" src="https://www.youtube.com/embed/QR94VsXgTmc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-
-
-
-SimCenter Tools
+C Functions
 -----------
 
 .. raw:: html
 
-       <p><iframe width="560" height="315" src="https://www.youtube.com/embed/eOduZATiw6E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+   <p><iframe width="560" height="315" src="https://www.youtube.com/embed/ua2KOBhvxDo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 
+C Pointers Revisited
+--------------------
+
+.. raw:: html
+
+   <p><iframe width="560" height="315" src="https://www.youtube.com/embed/Qplwm5K27UY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+
+C Arrays and Memory Management
+------------------------------
+
+.. raw:: html
+
+   <p><iframe width="560" height="315" src="https://www.youtube.com/embed/QESE-SwNx7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+
+C File I/O
+----------
+
+.. raw:: html
+
+   <p><iframe width="560" height="315" src="https://www.youtube.com/embed/EWT3wU9yDCo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+
+
+C Struts, Data Structures and Abstraction
+------------------------------------------
+
+.. raw:: html
+
+   <p><iframe width="560" height="315" src="https://www.youtube.com/embed/_ewhjB45tTc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+
+C++ Abstraction and OOP
+-----------------------
+
+.. raw:: html
+
+   <p><iframe width="560" height="315" src="https://www.youtube.com/embed/9VYn7g96cxM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+C++ Language
+------------
+
+.. raw:: html
+
+   <p><iframe width="560" height="315" src="https://www.youtube.com/embed/0YJdjzSEN78" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+C++ Class Example
+-----------------
+
+.. raw:: html
+
+   <p><iframe width="560" height="315" src="https://www.youtube.com/embed/YzpMBOlhpq8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+
+Parallel Computers and Parallel Programming
+-------------------------------------------
+
+.. raw:: html
+
+   <p><iframe width="560" height="315" src="https://www.youtube.com/embed/WvfpAZMI01E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+
+Parallel Programming With MPI
+-----------------------------
+
+.. raw:: html
+
+   <p><iframe width="560" height="315" src="https://www.youtube.com/embed/209rMQcKizc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+Parallel Programming With OpenMP
+-------------------------------
+
+.. raw:: html
+
+   <p><iframe width="560" height="315" src="https://www.youtube.com/embed/APzanKquS-Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+Intoduction to Agave
+--------------------
+
+.. raw:: html
+	 
+   <p><iframe width="560" height="315" src="https://www.youtube.com/embed/vNFbzG4t1bI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+
+Agave Systems
+-------------
+
+.. raw:: html
+	 
+   <p><iframe width="560" height="315" src="https://www.youtube.com/embed/TddwsA5MY_I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+
+Agave Files
+-----------
+
+.. raw:: html
+	 
+   <p><iframe width="560" height="315" src="https://www.youtube.com/embed/eh7Etvuvo7E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+   
+
+Agave Apps
+----------
+
+.. raw:: html
+	 
+   <p><iframe width="560" height="315" src="https://www.youtube.com/embed/f2-Qg6sMsQM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+Agave Jobs
+----------
+
+.. raw:: html
+	 
+   <p><iframe width="560" height="315" src="https://www.youtube.com/embed/HDo5QzwOjTc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+   

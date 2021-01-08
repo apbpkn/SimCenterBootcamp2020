@@ -4,8 +4,7 @@ Syllabus
 
 .. raw:: HTML
 
-	<p><font color=red> last updated: Dec 13, 2020 </font></p>
-
+	<p><font color=red> last updated: Jan 8, 2021 </font></p>
 
 Welcome to the SimCenter Programming Bootcamp 2020.  Due to COVID-19, this year's offering will be solely online. A drawback of an online offering is the lack of interaction among the participants. The SimCenter team is putting in all effort to recreate some
 of the community building benefits through discussion sessions and social time.
@@ -16,8 +15,8 @@ ideal flow of lessons and activities is provided in the "By Day" listing below.
 
 
 
-Part 1 - Dec 14-18, 2020
-------
+Python - Dec 14-18, 2020
+------------------------
 
 * Day 1
 
@@ -55,7 +54,7 @@ Part 1 - Dec 14-18, 2020
   * Assign Homework #3
 
 
-* Day 4 - `Machine Learning <https://github.com/NHERI-SimCenter/SimCenterBootcamp2020/blob/master/presentations/MachineLearining.pdf>`_
+* Day 4 - `Machine Learning <https://github.com/NHERI-SimCenter/SimCenterBootcamp2020/blob/master/presentations/MachineLearning.pdf>`_
 
   * Homework #3 review
   * Basics of Machine Learning
@@ -78,38 +77,40 @@ Part 1 - Dec 14-18, 2020
 
 
 
-Part 2 - Jan 4-8, 2021
-------
+Introduction to C - Jan 4-8, 2021
+---------------------------------
 
-* Day 6: `Intro to C <https://github.com/NHERI-SimCenter/SimCenterBootcamp2020/blob/master/presentations/IntroToC.pdf>`_
+* Day 6: `Basic C <https://github.com/NHERI-SimCenter/SimCenterBootcamp2020/blob/master/presentations/C-Day1.pdf>`_
+  
+  * Computers and Computer Programs
+  * The C Computer Programming Language
+  * C: Variable Types and Variable Names
+  * C: Operations, Conditionals, and Loops
+  * C: Functions
 
-  * TACC - logging in/linux basics (cd, ls, mkdir, ...)
-  * `Git <https://github.com/NHERI-SimCenter/SimCenterBootcamp2020/blob/master/presentations/Git.pdf>`_
+* Day 7: `More Advanced C <https://github.com/NHERI-SimCenter/SimCenterBootcamp2020/blob/master/presentations/C-Day2.pdf>`_
+  
+  * C: Pointers Review
+  * C: Memory Allocation
+  * C: File I/O
+  * C: User Defined Datatypes
+    
+* Day 8 - `C: Datatypes & C++ <https://github.com/NHERI-SimCenter/SimCenterBootcamp2020/blob/master/presentations/C-Day3.pdf>`_
 
-  * Intro to C 
-  * Compiling and debugging
-  * Exercise: code, compile, debug
-  * C 
-  * Assign Homework #5
+  * Object Oriented Programming
+  * C++
+  * C++ Example
 
 
-* Day 7 - `Parallel Programming <https://github.com/NHERI-SimCenter/SimCenterBootcamp2020/blob/master/presentations/Parallel.pdf>`_
-
+* Day 9 - `Parallel Programming <https://github.com/NHERI-SimCenter/SimCenterBootcamp2020/blob/master/presentations/Parallel.pdf>`_
 
   * Parallel Computers  
   * MessagePassing & MPI
   * Shared Memory & OpenMP
 
+    
 
-* Day 8 - `C: Datatypes & C++ <https://github.com/NHERI-SimCenter/SimCenterBootcamp2020/blob/master/presentations/Abstraction.pdf>`_
-
-  * C Datatypes
-  * Exercise
-  * C++
-  * Exercise
-
-
-* Day 9 - `DesignSafe & Agave <https://github.com/NHERI-SimCenter/SimCenterBootcamp2020/blob/master/presentations/Agave.pdf>`_
+* Day 10 - `DesignSafe & Agave <https://github.com/NHERI-SimCenter/SimCenterBootcamp2020/blob/master/presentations/Agave.pdf>`_
 
   * Review: Exercise
   * Intro to DesignSafe & Tapis
@@ -118,11 +119,6 @@ Part 2 - Jan 4-8, 2021
   * Building an Agave App
   * Exercise
 
-
-* Day 10
-
-  * Overview of SimCenter Tools & Their Coding
-  * Closing Remarks
 
 ..
 	  * `Building Graphic User Interfaces (GUI) using Qt5 <https://github.com/NHERI-SimCenter/SimCenterBootcamp2020/blob/master/presentations/NHERI-SimCenter-GUI-Qt.pdf>`_
